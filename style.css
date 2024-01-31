@@ -1,0 +1,74 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap'); */
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: larger;
+    font-weight: bolder; */
+}
+
+header h1{
+    display: flex;
+    flex-direction: row;
+    text-align: end;
+    color: rgb(176, 21, 42);
+    /* position: relative; */
+    margin-left: 6rem;
+    /* margin-top: 0%; */
+    margin-bottom: 1rem;
+}
+body{
+    background-image: url(assets/bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   font-family: 'poppins',sans-serif;
+   font-weight: smaller;
+   font-size: smaller;
+   height: 100vh;
+   /* display: flex; */
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   /* padding:20px; */
+   /* margin: 15px; */
+   
+}
+.countdown{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    color: #fff;
+    /* margin-top: 0.5rem; */
+    margin-left: 7rem ;
+   
+}
+.timer{
+    
+    text-align: center;
+    margin: 0 10px;
+    color: rgb(224, 101, 121);
+    /* margin-left: 10rem;
+    margin-right:10rem ; */
+}
+.timer h3{
+    font-weight: smaller;
+    font-size:20px ;
+    
+}
+.timer p{
+    font-weight: lighter;
+    font-size: 20px;
+    /* margi
+    n: 15px; */
+}
+.timer h3,
+p{
+    /* margin-left: rem; */
+    margin-top: .5rem;
+    position: relative;
+    top: -24px;
+    /* margin-right:10re; */
+}
