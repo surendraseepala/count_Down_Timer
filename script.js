@@ -3,8 +3,9 @@ const hours=document.getElementById('hours')
 const minutes=document.getElementById('mins')
 const seconds=document.getElementById('secs')
 const currentYear=new Date().getFullYear();
-console.log(currentYear)
-const scienceDayTime=new Date(`Feb 28 ${currentYear} 00:00:00`)
+const nextYear=currentYear+1;
+// console.log(currentYear)
+const scienceDayTime=new Date(`Feb 28 ${nextYear} 00:00:00`)
 console.log(scienceDayTime)
 function updateCountDownTimer(){
     const currentTime=new Date()
